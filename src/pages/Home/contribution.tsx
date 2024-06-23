@@ -11,24 +11,25 @@ export function Contribution() {
       mt={{ base: '8', lg: '0' }}
       flexDir={{ base: 'column-reverse', lg: 'row' }}
     >
-      <PixQRCode w="95px" h="95px" />
 
       <Box textAlign={{ base: 'center', lg: 'start' }}>
         <Heading as="h2" fontSize="xl">
-          Contribuições ❤️
+          Bem-vindos Otários(as) ❤️
         </Heading>
 
         <Text color="gray.600" fontSize="small">
-          Considere realizar uma doação para auxiliar na manutenção do projeto.{' '}
-          <br /> Melhorias? Envie um e-mail para{' '}
+          Essa é uma versão exclusiva para membros da <Link href="https://vortens.com.br" fontWeight="bold" textDecor="underline">Vortens Tecnologia</Link>.{' '}
+          <br /> Fork do projeto do nosso amigo {' '}
           <Link
-            href="mailto:silvanosilvino@hotmail.com"
+            href="https://github.com/SilvanoGPM"
             fontWeight="bold"
             textDecor="underline"
           >
-            silvanosilvino@hotmail.com
+            Silvano Marques
           </Link>
         </Text>
+        <br/>
+        <img src="/logo.svg" width="60%"></img>
       </Box>
     </Flex>
   );

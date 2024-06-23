@@ -34,7 +34,6 @@ export function Home(): JSX.Element {
       </Flex>
 
       <Tags />
-      <AddCardLink />
     </Container>
   );
 }

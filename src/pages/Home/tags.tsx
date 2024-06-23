@@ -12,7 +12,7 @@ export function Tags() {
       justify="space-between"
     >
       <iframe
-        src="https://ghbtns.com/github-btn.html?user=SilvanoGPM&repo=cards-against-humanity&type=star&count=true&size=large"
+        src="https://ghbtns.com/github-btn.html?user=vortenstecnologia&repo=cards-against-humanity&type=star&count=true&size=large"
         style={{ textAlign: 'center' }}
         width="170"
         height="30"
