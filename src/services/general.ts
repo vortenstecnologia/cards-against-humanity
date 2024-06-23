@@ -2,7 +2,7 @@ import { generalCollection } from '@/firebase/config';
 import { doc, updateDoc } from 'firebase/firestore';
 import { getAny } from './core';
 
-const GENERAL_ID = '47rsPKlk9wWixPzOHTML';
+const GENERAL_ID = 'muPRiRZh05ujHijPMg0R';
 
 export async function getGeneral() {
   return getAny<GeneralType>(generalCollection, GENERAL_ID);
